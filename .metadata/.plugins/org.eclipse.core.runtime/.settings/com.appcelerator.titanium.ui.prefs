@@ -1,5 +1,7 @@
-LAST_LAUNCH_TIMESTAMP=1380666176914
+Android\ Emulator\ Process\:ConsoleLogLevel=Info
+LAST_LAUNCH_TIMESTAMP=1380745243817
 eclipse.preferences.version=1
+iOS\ build\ and\ deploy\:ConsoleLogLevel=Info
 preference.show.console.onError=true
-preference.studio.perspective.toolbar.visible=false
+preference.studio.perspective.toolbar.visible=true
 preference.studio.perspective.version=102
