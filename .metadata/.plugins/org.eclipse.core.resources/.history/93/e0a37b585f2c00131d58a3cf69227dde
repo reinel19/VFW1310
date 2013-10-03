@@ -1,0 +1,45 @@
+var mainWindow = Ti.UI.createWindow({
+	title: "Favorite Games",
+	modal: true,
+	backgroundColor: "#333"
+});
+
+var buttonView = Ti.UI.createView({
+	backgroundColor: "#23ba00",
+	top: 15,
+	left: 20,
+	right: 20,
+	borderRadius: 5,
+	height: 50
+});
+
+var buttonText = Ti.UI.createLabel({
+	color: "#fff",
+	font: {fontSize:16, fontFamily: "Arial"},
+	textAlign: "center",
+	text:"next"
+});
+
+var buttonView2 = Ti.UI.createView({
+	backgroundColor: "#23ba00",
+	top: 15,
+	left: 20,
+	right: 20,
+	borderRadius: 5,
+	height: 50
+});
+
+var buttonText2 = Ti.UI.createLabel({
+	color: "#fff",
+	font: {fontSize:16, fontFamily: "Arial"},
+	textAlign: "center",
+	text:"Previous"
+});
+
+var videoGameFile = require("videoGames");
+
+buttonView2.add(buttonText2);
+buttonView.add(buttonText);
+mainWindow.add(buttonView2);
+mainWindow.add(buttonView);
+mainWindow.open();

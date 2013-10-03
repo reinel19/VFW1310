@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="778" width="1200" x="47" y="22">
+<window height="778" width="1200" x="41" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -36,7 +36,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="com.aptana.editor.js" name="app.js" partName="app.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/app.js" title="app.js" tooltip="Rodas_Reinel_Project1/Resources/app.js" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project1/Resources/app.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="523" selectionTopPixel="330"/>
 </editor>
 </editors>
 <views>
@@ -53,6 +53,9 @@
 <view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -66,7 +69,12 @@
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Rodas_Reinel_Project1">
-<project name="Rodas_Reinel_Project1">&#x0A;<selection>&#x0A;<element path="/Rodas_Reinel_Project1"/>
+<project name="Rodas_Reinel_Project1">
+<expanded>
+<element path="/Rodas_Reinel_Project1/Resources"/>
+</expanded>
+<selection>
+<element path="/Rodas_Reinel_Project1/Resources/app.js"/>
 </selection>
 </project>
 </viewState>
@@ -251,8 +259,155 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1/Resources/app.js"/>
 </editors>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="12" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="18" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="42" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="170" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="169" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="167" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="303" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="302" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="236" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="357" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="400" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="422" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="1060" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="1079" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="805" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="947" y="0"/>
+</item>
 <item active="true" historyLabel="app.js" index="0">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="888" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

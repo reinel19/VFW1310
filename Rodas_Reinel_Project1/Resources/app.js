@@ -1,16 +1,14 @@
-var food = ["Pasta","Salad","Apple","Pizza"];
-
 var mainWindow = Ti.UI.createWindow({
-	title: "Event listeners and Even Handlers",
+	title: "Favorite Games",
 	modal: true,
 	backgroundColor: "#333"
 });
 
 var buttonView = Ti.UI.createView({
 	backgroundColor: "#23ba00",
-	top: 15,
-	left: 20,
-	right: 20,
+	top: 315,
+	left: 15,
+	right: 200,
 	borderRadius: 5,
 	height: 50
 });
@@ -19,34 +17,30 @@ var buttonText = Ti.UI.createLabel({
 	color: "#fff",
 	font: {fontSize:16, fontFamily: "Arial"},
 	textAlign: "center",
-	text:"Change Text"
+	text:"Previous"
 });
-var displayAlert = function() {
-	var startingTop = 50;
-    for(var i=0, j=food.length; i<j; i++);{
-    	var quoteView = Ti.UI.createView({
-			backgroundColor: "#fff",
-			height: 30,
-			top: startingTop,
-			left: 20,
-			right: 20,
-			borderRadius: 5
-		});
 
-		var quoteText = Ti.UI.createLabel({
-			text: food[i],
-			font: {fontSize: 20, fontFamily: "Arial"},
-			textAlign: "center"
-		});
-	quoteView.add(quoteText);
-	mainWindow.add(quoteView);
-	startingTop = startingTop + quoteView.height + 10;
-    }
-};
+var buttonView2 = Ti.UI.createView({
+	backgroundColor: "#23ba00",
+	top: 315,
+	left: 200,
+	right: 15,
+	borderRadius: 5,
+	height: 50
+});
 
-buttonView.addEventListener("click", displayAlert);
+var buttonText2 = Ti.UI.createLabel({
+	color: "#fff",
+	font: {fontSize:16, fontFamily: "Arial"},
+	textAlign: "center",
+	text:"Next"
+});
+
+var videoGameFile = require("videoGames");
 
 
 buttonView.add(buttonText);
+buttonView2.add(buttonText2);
 mainWindow.add(buttonView);
+mainWindow.add(buttonView2);
 mainWindow.open();
