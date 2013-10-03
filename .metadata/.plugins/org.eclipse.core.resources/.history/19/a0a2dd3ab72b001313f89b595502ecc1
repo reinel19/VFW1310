@@ -1,0 +1,28 @@
+var mainWindow = Ti.UI.createWindow({
+	title:"First Window",
+	modal: true,
+	backgroundColor:"#ff0000"
+	
+});
+
+var topView = Ti.UI.createView({
+	backgroundColor: "#091f92",
+	width: 150,
+	height: 200,
+	top: 15
+});
+
+var myContent = Ti.UI.createLabel({
+	text: "Hello World!",
+	backgroundColor:"#333",
+	color: "#fff",
+	textAlign: "right",
+	width: 100,
+	top: 10,
+	right: 10,
+	font:{fontSize:20, fontFamily:"Helverica"}
+});
+
+mainWindow.add(myContent);
+mainWindow.open();
+ 

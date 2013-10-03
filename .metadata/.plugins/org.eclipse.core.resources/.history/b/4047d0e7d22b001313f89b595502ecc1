@@ -22,12 +22,11 @@ var buttonText = Ti.UI.createLabel({
 	text:"Change Text"
 });
 var displayAlert = function() {
-	var startingTop = 50;
     for(var i=0, j=food.length; i<j; i++);{
     	var quoteView = Ti.UI.createView({
 			backgroundColor: "#fff",
 			height: 30,
-			top: startingTop,
+			top: 50,
 			left: 20,
 			right: 20,
 			borderRadius: 5
@@ -37,10 +36,9 @@ var displayAlert = function() {
 			text: food[i],
 			font: {fontSize: 20, fontFamily: "Arial"},
 			textAlign: "center"
-		});
+});
 	quoteView.add(quoteText);
-	mainWindow.add(quoteView);
-	startingTop = startingTop + quoteView.height + 10;
+	mainWindow.add(quote.View);
     }
 };
 

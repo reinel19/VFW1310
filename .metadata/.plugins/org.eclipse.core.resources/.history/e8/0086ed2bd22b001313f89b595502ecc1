@@ -8,7 +8,7 @@ var mainWindow = Ti.UI.createWindow({
 
 var buttonView = Ti.UI.createView({
 	backgroundColor: "#23ba00",
-	top: 15,
+	top: quoteView.top + quoteView.height + 15,
 	left: 20,
 	right: 20,
 	borderRadius: 5,
@@ -22,31 +22,27 @@ var buttonText = Ti.UI.createLabel({
 	text:"Change Text"
 });
 var displayAlert = function() {
-	var startingTop = 50;
-    for(var i=0, j=food.length; i<j; i++);{
+    for(var i=0, j=food.lengh; i<j; i++);{
     	var quoteView = Ti.UI.createView({
-			backgroundColor: "#fff",
-			height: 30,
-			top: startingTop,
-			left: 20,
-			right: 20,
-			borderRadius: 5
-		});
+	backgroundColor: "#fff",
+	height: 30,
+	top: 50,
+	left: 20,
+	right: 20,
+	borderRadius: 5
+});
 
-		var quoteText = Ti.UI.createLabel({
-			text: food[i],
-			font: {fontSize: 20, fontFamily: "Arial"},
-			textAlign: "center"
-		});
-	quoteView.add(quoteText);
-	mainWindow.add(quoteView);
-	startingTop = startingTop + quoteView.height + 10;
+var quoteText = Ti.UI.createLabel({
+	text: "Click below to start",
+	font: {fontSize: 20, fontFamily: "Arial"},
+	textAlign: "center"
+});
     }
 };
 
 buttonView.addEventListener("click", displayAlert);
 
-
+quoteView.add(quoteText);
 buttonView.add(buttonText);
-mainWindow.add(buttonView);
+mainWindow.add(quoteView,buttonView);
 mainWindow.open();

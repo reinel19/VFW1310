@@ -40,7 +40,7 @@ var displayAlert = function() {
 		});
 	quoteView.add(quoteText);
 	mainWindow.add(quoteView);
-	startingTop = startingTop + quoteView.height + 10;
+	startingTop = startingTop + quoteView.height + 10
     }
 };
 
