@@ -1,24 +1,33 @@
 Logfile initialized
 [INFO] logfile = /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/build.log
+[INFO] logfile = /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/build.log
+[DEBUG] /Users/Sador/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py simulator Rodas_Reinel_Project1 /Applications/adt-bundle-mac-x86_64-20130917/sdk /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1 com.fullsailreinel19 2 WVGA854
 [DEBUG] /Users/Sador/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py emulator Rodas_Reinel_Project1 /Applications/adt-bundle-mac-x86_64-20130917/sdk /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1 com.fullsailreinel19 2 WVGA854 armeabi
-[INFO] Building Rodas_Reinel_Project1 for Android ... one moment
 [INFO] Launching Android emulator...one moment
+[INFO] Building Rodas_Reinel_Project1 for Android ... one moment
 [DEBUG] From: /Applications/adt-bundle-mac-x86_64-20130917/sdk/tools/emulator
 [DEBUG] SDCard: /Users/Sador/.titanium/android2.sdcard
 [DEBUG] AVD ID: 2
 [DEBUG] AVD Skin: WVGA854
 [DEBUG] AVD ABI: armeabi
 [DEBUG] SDK: /Applications/adt-bundle-mac-x86_64-20130917/sdk
-[INFO] Emulator is running.
 [INFO] Titanium SDK version: 3.1.3 (09/18/13 12:00 222f4d1)
 [DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[DEBUG] /Applications/adt-bundle-mac-x86_64-20130917/sdk/tools/emulator -avd titanium_2_WVGA854 -port 5560 -sdcard /Users/Sador/.titanium/titanium_2_WVGA854.sdcard -logcat *:d,*,TiAPI:V -no-boot-anim -partition-size 128
 [TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.034655 seconds on emulator to get ready
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 25 seconds)
+[DEBUG] waited 25.214742 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
 [DEBUG] com.fullsailreinel19 installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/app.js => /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/build/android/bin/assets/Resources/app.js
 [DEBUG] LiveView not enabled
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
@@ -32,9 +41,9 @@ Logfile initialized
 [DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/android/images/res-notlong-port-hdpi/default.png
 [DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/android/images/res-notlong-port-ldpi/default.png
 [DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/android/images/res-notlong-port-mdpi/default.png
+[INFO] Waiting for SDCard to become available..
 [INFO] Re-launching application ... Rodas_Reinel_Project1
 [INFO] Launching application ... Rodas_Reinel_Project1
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.fullsailreinel19/.Rodas_reinel_project1Activity }
-Warning: Activity not started, its current task has been brought to the front
 
 [INFO] Android Emulator has exited
