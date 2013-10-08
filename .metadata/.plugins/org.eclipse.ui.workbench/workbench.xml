@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="778" width="1200" x="76" y="79">
+<window height="778" width="1200" x="76" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,6 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.appcelerator.titanium.ui.ide.tiappEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -30,18 +31,13 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.js" name="app.js" partName="app.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/app.js" title="app.js" tooltip="Rodas_Reinel_Project1/Resources/app.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project1/Resources/app.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="63" selectionTopPixel="238"/>
-</editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.js" name="videoGames.js" partName="videoGames.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/videoGames.js" title="videoGames.js" tooltip="Rodas_Reinel_Project1/Resources/videoGames.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project1/Resources/videoGames.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="272" selectionTopPixel="53"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.js" name="app.js" partName="app.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project2/Resources/app.js" title="app.js" tooltip="Rodas_Reinel_Project2/Resources/app.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project2/Resources/app.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="846" selectionTopPixel="147"/>
 </editor>
 </editors>
 <views>
@@ -71,12 +67,9 @@
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="Rodas_Reinel_Project1">
-<project name="Rodas_Reinel_Project1">
-<expanded>
-<element path="/Rodas_Reinel_Project1/Resources"/>
+<project name="Rodas_Reinel_Project1">&#x0A;<expanded>&#x0A;<element path="/Rodas_Reinel_Project1/Resources"/>
 </expanded>
-<selection>
-<element path="/Rodas_Reinel_Project1/Resources/app.js"/>
+<selection>&#x0A;<element path="/Rodas_Reinel_Project1/Resources/app.js"/>
 </selection>
 </project>
 </viewState>
@@ -122,30 +115,21 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="leftArea">
-<folder activePageID="com.aptana.explorer.view" appearance="2" expanded="2">
-<page content="com.aptana.explorer.view" label="App Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="leftArea">&#x0A;<folder activePageID="com.aptana.explorer.view" appearance="2" expanded="2">&#x0A;<page content="com.aptana.explorer.view" label="App Explorer"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="894" ratioRight="298" relationship="2" relative="leftArea">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="894" ratioRight="298" relationship="2" relative="leftArea">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19966443" ratioLeft="238" ratioRight="954" relationship="2" relative="leftArea"/>
-<info folder="true" part="terminalArea" ratio="0.74930745" ratioLeft="541" ratioRight="181" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info folder="true" part="terminalArea" ratio="0.74930745" ratioLeft="541" ratioRight="181" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal:*" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -154,13 +138,10 @@
 <page content="com.aptana.webserver.ui.view" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.74930745" ratioLeft="541" ratioRight="181" relationship="4" relative="leftArea">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.74930745" ratioLeft="541" ratioRight="181" relationship="4" relative="leftArea">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
 <page content="com.aptana.snippets.ui.views.SnippetsView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -252,7 +233,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@ff024d" ratio="0.74930745" ratioLeft="541" ratioRight="181" relationship="4" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ff024d" ratio="0.6144928" ratioLeft="424" ratioRight="266" relationship="4" relative="left">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
@@ -271,153 +252,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1/Resources/app.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1/Resources/videoGames.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1Copy/Resources/app.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1/Resources/app.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Rodas_Reinel_Project1Copy/Resources/videoGames"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1Copy/Resources/videoGames.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project2/Resources/app.js"/>
 </editors>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="594" y="0"/>
+<item historyLabel="app.js | Rodas_Reinel_Project1Copy" index="1">
+<position info="not_deleted" x="837" y="0"/>
 </item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="594" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="759" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="594" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="759" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="594" y="0"/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="649" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="594" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="649" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="649" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="759" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="app.js" index="0">
-<position info="not_deleted" x="759" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="770" y="0"/>
-</item>
-<item historyLabel="app.js" index="2">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="899" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="app.js" index="2">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="app.js" index="2">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="483" y="0"/>
-</item>
-<item historyLabel="app.js" index="2">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="app.js" index="2">
-<position/>
-</item>
-<item historyLabel="videoGames.js" index="1">
+<item historyLabel="videoGames.js" index="0">
 <position info="not_deleted" x="272" y="0"/>
 </item>
-<item historyLabel="app.js" index="2">
-<position info="not_deleted" x="661" y="38"/>
+<item historyLabel="app.js | Rodas_Reinel_Project1Copy" index="1">
+<position info="not_deleted" x="837" y="0"/>
 </item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="videoGames" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="app.js" index="2">
-<position info="not_deleted" x="39" y="8"/>
+<item historyLabel="app.js | Rodas_Reinel_Project1" index="2">
+<position info="not_deleted" x="0" y="837"/>
 </item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="videoGames.js" index="0">
+<position info="not_deleted" x="0" y="1006"/>
 </item>
-<item historyLabel="app.js" index="2">
-<position info="not_deleted" x="39" y="8"/>
+<item historyLabel="videoGames" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="videoGames.js | Rodas_Reinel_Project1" index="0">
+<position info="not_deleted" x="0" y="1006"/>
 </item>
-<item historyLabel="app.js" index="2">
-<position info="not_deleted" x="730" y="0"/>
+<item historyLabel="videoGames.js | Rodas_Reinel_Project1Copy" index="4">
+<position info="not_deleted" x="1006" y="0"/>
 </item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="videoGames.js" index="0">
+<position info="not_deleted" x="0" y="1006"/>
 </item>
-<item historyLabel="app.js" index="2">
-<position info="not_deleted" x="730" y="0"/>
+<item historyLabel="videoGames.js | Rodas_Reinel_Project1Copy" index="4">
+<position info="not_deleted" x="1006" y="0"/>
 </item>
-<item historyLabel="app.js" index="2">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="videoGames.js" index="0">
+<position info="not_deleted" x="0" y="1006"/>
 </item>
 <item historyLabel="app.js" index="2">
-<position info="not_deleted" x="63" y="0"/>
+<position info="not_deleted" x="0" y="837"/>
 </item>
-<item active="true" historyLabel="videoGames.js" index="1">
-<position info="not_deleted" x="272" y="0"/>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1699" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="29" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1696" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1667" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="449" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="309" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="248" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="428" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="427" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="448" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="447" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="535" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="534" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1684" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1643" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="928" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="976" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1312" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1024" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1146" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1231" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1143" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1230" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1571" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1555" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1228" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="652" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="1126" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="849" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="95" y="0"/>
+</item>
+<item historyLabel="app.js" index="5">
+<position info="not_deleted" x="216" y="0"/>
+</item>
+<item active="true" historyLabel="app.js" index="5">
+<position info="not_deleted" x="1667" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -437,6 +424,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" tooltip="Rodas_Reinel_Project2/tiapp.xml">
+<persistable path="/Rodas_Reinel_Project2/tiapp.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="app.js" tooltip="Rodas_Reinel_Project2/Resources/app.js">
+<persistable path="/Rodas_Reinel_Project2/Resources/app.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="videoGames.js" tooltip="Rodas_Reinel_Project1Copy/Resources/videoGames.js">
+<persistable path="/Rodas_Reinel_Project1Copy/Resources/videoGames.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" tooltip="Rodas_Reinel_Project1Copy/tiapp.xml">
+<persistable path="/Rodas_Reinel_Project1Copy/tiapp.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="app.js" tooltip="Rodas_Reinel_Project1Copy/Resources/app.js">
+<persistable path="/Rodas_Reinel_Project1Copy/Resources/app.js"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="videoGames.js" tooltip="Rodas_Reinel_Project1/Resources/videoGames.js">
 <persistable path="/Rodas_Reinel_Project1/Resources/videoGames.js"/>
 </file>

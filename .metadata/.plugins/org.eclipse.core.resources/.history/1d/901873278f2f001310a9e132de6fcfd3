@@ -1,0 +1,25 @@
+var win = Ti.UI.createWindow();
+
+var produce = [{title: "Apples"}, {title: "Bananas"}]; 
+var veg  = [{title: "Carrots"}, {title: "Potatos"}];
+
+var table = Ti.UI.createTableView({
+	style: Ti.UI.iPhone.TableViewStyle.GROUPED,
+});
+
+var produceSection = Ti.UI.createTableViewSection({
+	headerTitle: "Produce",
+	footerTitle: "List of produce we need to buy"
+});
+
+var vegSection = Ti.UI.createTableViewSection({
+	headerTitle: "Vegetables",
+	footerTitle: "List of vegetables we need to buy"
+});
+
+var mySections = [produceSection, vegeSection];
+
+table.setData(mySections);
+
+win.add(table);
+win.open();

@@ -1,0 +1,71 @@
+var win = Ti.UI.createWindow();
+
+var navWindow = Ti.UI.createWindow({
+	title: "Best Games Ever Play",
+	modal: true,
+	backgroundColor: "#fff"
+});
+
+var navGroup = Ti.UI.iPhone.createNavigationGroup({
+	window: navWindow
+});
+
+var action = [{title: "Metal Gear", description:"I have been I huge fan of metal gear since Metal Gear Solid for Play Station. The cinematics are awesome, the gameplay is smooth and fun. The tactical part of the game is what got me hook up. "}, 
+			{title: "Bananas", description: "there are a lot of different kind of bananas."}]; 
+//var vege  = [{title: "Carrots"}, {title: "Potatos"}];
+
+var table = Ti.UI.createTableView({
+	style: Ti.UI.iPhone.TableViewStyle.GROUPED,
+});
+var getActionDetail = function(argument) {
+  	var detailWindow = Ti.UI.createWindow({
+  		backgroundColor: "#fff",
+  		title: this.title,
+  		modal: true,
+  		textAlign: "left"
+  	});
+  	var detailText = Ti.UI.createLabel({
+  		text: this.desc,
+  		font: {fontSize: 14, fontFamily:"helvetica",fontWeight:"bold"},
+  		left:20
+  	});
+  	detailWindow.add(detailText);
+  	navGroup.open(detailWindow,{animation: true});
+};
+
+var actionSection = Ti.UI.createTableViewSection({
+	headerTitle: "Action",
+	footerTitle: "Best Action Games Ever Play."
+});
+
+for (var i=0, j=action.length; i<j; i++ ){
+	var theRow = Ti.UI.createTableViewRow({
+		title: action[i].title,
+		desc: action[i].description,
+		hasChild: true
+	});
+	actionSection.add(theRow);
+	theRow.addEventListener("click", getActionDetail);	
+};
+
+/*var vegeSection = Ti.UI.createTableViewSection({
+	headerTitle: "Vegetables",
+	footerTitle: "List of vegetables we need to buy"
+});
+
+for (var i=0, j=vege.length; i<j; i++ ){
+	var theRow = Ti.UI.createTableViewRow({
+		title: vege[i].title,
+		hasChild: true
+	});
+	vegeSection.add(theRow);
+	theRow.addEventListener("click", getVegeDetail);	
+};
+*/
+
+var myGameSections = [actionSection,];
+
+table.setData(myGameSections);
+navWindow.add(table);
+win.add(navGroup);
+win.open();
