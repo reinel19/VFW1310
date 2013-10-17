@@ -11,7 +11,7 @@ var table = Ti.UI.createTableView({
 	style: Ti.UI.iPhone.TableViewStyle.GROUPED,
 });
 
-var getActionDetail = function() {
+/*var getActionDetail = function() {
   	var detailWindow = Ti.UI.createWindow({
   		backgroundColor: "#fff",
   		title: this.title,
@@ -26,7 +26,7 @@ var getActionDetail = function() {
   	});
   	detailWindow.add(detailText);
   	navGroup.open(detailWindow,{animation: true});
-};
+};*/
 // Action view section
 var actionSection = Ti.UI.createTableViewSection({
 	headerTitle: "Action",
@@ -40,12 +40,12 @@ for (var i=0, j=action.length; i<j; i++ ){
 		hasChild: true
 	});
 	actionSection.add(theRow);
-	theRow.addEventListener("click", getActionDetail);	
+	//theRow.addEventListener("click", getActionDetail);	
 };
 //End of Action Section
 
 // Start Of Shooter Section
-var getShooterDetail = function() {
+/*var getShooterDetail = function() {
   	var detailWindow = Ti.UI.createWindow({
   		backgroundColor: "#fff",
   		title: this.title,
@@ -60,7 +60,7 @@ var getShooterDetail = function() {
   	});
   	detailWindow.add(detailText);
   	navGroup.open(detailWindow,{animation: true});
-};
+};*/
 
 var shooterSection = Ti.UI.createTableViewSection({
 	headerTitle: "Shooter",
@@ -73,8 +73,7 @@ for (var i=0, j=shooter.length; i<j; i++ ){
 		desc: shooter[i].description,
 		hasChild: true
 	});
-	shooterSection.add(theRow);
-	theRow.addEventListener("click", getShooterDetail);	
+	shooterSection.add(theRow);	
 };
 
 
@@ -82,3 +81,21 @@ var myGameSections = [actionSection, shooterSection];
 
 table.setData(myGameSections);
 navWindow.add(table);
+
+table.addEventListener("click", function(event){
+	console.log(event.source.title);
+	var detailWindow = Ti.UI.createWindow({
+  		backgroundColor: "#fff",
+  		title: event.source.title,
+  		modal: true
+  		
+  	});
+  	var detailText = Ti.UI.createLabel({
+  		text: event.source.desc,
+  		font: {fontSize: 14, fontFamily:"helvetica",fontWeight:"bold"},
+  		top: 20,
+  		left: 20
+  	});
+  	detailWindow.add(detailText);
+  	navGroup.open(detailWindow,{animation: true});
+});

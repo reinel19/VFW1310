@@ -9,10 +9,7 @@ var navGroup = Ti.UI.iPhone.createNavigationGroup({
 	window: navWindow
 });
 
-
 var videoGameFile = require("Games");
-
-
 
 win.add(navGroup);
 win.open();

@@ -1,0 +1,10 @@
+var win = Ti.UI.createWindow({
+	title: "Layout Models",
+	modal: true,
+	backgroundColor: "#333",
+	layout: "vertical"
+});
+
+var modes = require("layouts");
+
+win.open();

@@ -1,0 +1,46 @@
+var numberofViews = 5;
+var numberofCols = 2;
+var spacing = 4;
+var numberofSpace = (numberofCols + 1)* spacing;
+var platformWidth = Ti.Platform.displayCaps.platformHeight;
+
+var newWidth = (platformWidth - numberofSpace)/ numberofViews;
+
+//var viewsContainer = Ti.UI.createScrollView({
+	//layout: "horizontal"
+//});
+
+var makeViews = function(){
+	for(var i=0, j= numberofViews; i<j; i++){
+		var newView = Ti.UI.createView({
+			top:4,
+			left:4,
+			backgroundColor: "#fff",
+			width: newWidth,
+			height:100
+		});
+		var newLabel = Ti.UI.createLabel({
+			text: i,
+			textAlign: "center"
+		});
+		newView.add(newLabel);
+		navGroup.open(newView,{animation: true});
+		//viewsContainer.add(newView);
+	}
+};
+
+	
+	// Create a Button.
+	var aButton = Ti.UI.createButton({
+		title : 'Game Gallery',
+		height : 100,
+		width : 200,
+		top : 20,
+		
+	});
+	
+	// Listen for click events.
+	
+navWin.add(aButton);
+aButton.addEventListener('click', makeViews);
+//navWin.add(viewsContainer);

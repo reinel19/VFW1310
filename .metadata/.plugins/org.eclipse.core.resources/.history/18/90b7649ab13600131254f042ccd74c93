@@ -1,0 +1,18 @@
+var buttonView = Ti.UI.createView({
+	backgroundColor: "#23ba00",
+	top: 315,
+	left: 15,
+	right: 200,
+	borderRadius: 5,
+	height: 50
+});
+
+var buttonText = Ti.UI.createLabel({
+	color: "#fff",
+	font: {fontSize:16, fontFamily: "Arial"},
+	textAlign: "center",
+	text:"Previous"
+});
+
+buttonView.add(buttonText);
+win.add(buttonView);
