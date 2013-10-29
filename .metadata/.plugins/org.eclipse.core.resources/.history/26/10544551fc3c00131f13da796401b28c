@@ -1,0 +1,65 @@
+var win = Ti.UI.createWindow();
+
+var navWin = Ti.UI.createWindow({
+	title:"Project4",
+	modal:true,
+	backgroundColor: "#333", 
+	layout: "horizontal"
+});
+
+var navGroup = Ti.UI.iPhone.createNavigationGroup({
+	window: navWin
+});
+
+// var newView = Ti.UI.createView({
+	// backgroundColor: "#fff",
+	// height: 100,
+	// top: 60,
+	// left : 10,
+	// right: 10
+// });
+// 
+// var newLabel = Ti.UI.createLabel({
+	// text: "Gallery",
+	// font:{fontSize: 24, FontFamily:"Helvetica"},
+	// color: "#333",
+	// left: 20
+// });
+//
+//newView.add(newLabel);
+
+var gPic = function(){
+	var gWin = Ti.UI.createWindow({
+		title: "Gallery",
+		modal: true,
+		backgroundColor: "#333"
+	});
+	navGroup.open(gWin,{animation: true});
+};
+
+
+// Create a Button.
+var Gallery = Ti.UI.createButton({
+	title : 'Gallery',
+	height : 100,
+	width : 300,
+	top : 60,
+	left : 20
+});
+
+// Listen for click events.
+Gallery.addEventListener('click',gPic);
+// Add to the parent view.
+navGroup.add(Gallery);
+
+
+
+//newView.addEventListener('click', gPic);
+
+// Add to the parent view.
+
+//navGroup.add(newView);
+
+win.add(navGroup);
+win.open();
+

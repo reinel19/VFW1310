@@ -325,3 +325,138 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.e
 
 !ENTRY org.eclipse.osgi 2 1 2013-10-23 15:26:09.550
 !MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages
+!SESSION 2013-10-23 16:06:53.052 -----------------------------------------------
+eclipse.buildId=3.1.3.201309132423
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Sador/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-10-23 16:07:16.191
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-23 16:07:57.788
+!MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages
+!SESSION 2013-10-24 15:42:05.808 -----------------------------------------------
+eclipse.buildId=3.1.3.201309132423
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Sador/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-10-24 15:42:31.710
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-24 17:36:07.432
+!MESSAGE NLS missing message: BasicProjectCreationPage_crossPlatformWarningAndroid in: com.appcelerator.titanium.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-24 17:36:07.432
+!MESSAGE NLS missing message: BasicProjectCreationPage_crossPlatformWarningIOS in: com.appcelerator.titanium.ui.wizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-24 17:37:56.272
+!MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages
+!SESSION 2013-10-25 12:58:58.889 -----------------------------------------------
+eclipse.buildId=3.1.3.201309132423
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Sador/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-10-25 12:59:37.045
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-25 13:02:33.407
+!MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages
+!SESSION 2013-10-27 13:16:22.324 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Sador/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-10-27 14:55:08.116
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2013-10-27 14:55:24.504
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-27 15:49:54.978
+!MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-10-27 16:08:05.687
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.appcelerator.titanium.acs.internal.ui.NodeACSStartup$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-10-27 16:08:05.710
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.appcelerator.titanium.update.internal.TitaniumNPMRelease$1
+!SESSION 2013-10-29 09:12:25.960 -----------------------------------------------
+eclipse.buildId=3.1.3.201309132423
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Sador/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-10-29 09:13:25.759
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 0 2013-10-29 09:13:44.081
+!MESSAGE While loading class "com.aptana.projects.templates.ProjectTemplatesManager$ProjectTemplateComparator", thread "Thread[Worker-14,5,main]" timed out waiting (5101ms) for thread "Thread[Worker-13,5,main]" to finish starting bundle "com.aptana.projects_3.0.0.1368601846 [100]". To avoid deadlock, thread "Thread[Worker-14,5,main]" is proceeding but "com.aptana.projects.templates.ProjectTemplatesManager$ProjectTemplateComparator" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.aptana.projects_3.0.0.1368601846.jar" by thread "Worker-13".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:463)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.aptana.projects.templates.ProjectTemplatesManager.addTemplate(ProjectTemplatesManager.java:290)
+	at com.aptana.projects.templates.ProjectTemplatesManager$1.elementBecameVisible(ProjectTemplatesManager.java:87)
+	at com.aptana.scripting.model.BundleManager.fireElementBecameVisibleEvent(BundleManager.java:736)
+	at com.aptana.scripting.model.BundleEntry$ChildVisibilityContext.fireVisibilityEvents(BundleEntry.java:70)
+	at com.aptana.scripting.model.BundleEntry$VisibilityContext.fireElementVisibilityEvents(BundleEntry.java:360)
+	at com.aptana.scripting.model.BundleEntry$VisibilityContext.fireElementVisibilityEvents(BundleEntry.java:344)
+	at com.aptana.scripting.model.BundleEntry.addBundle(BundleEntry.java:494)
+	at com.aptana.scripting.model.BundleManager.addBundle(BundleManager.java:566)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:131)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 23 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1087)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:297)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:463)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.aptana.projects.templates.ProjectTemplatesManager.addTemplate(ProjectTemplatesManager.java:290)
+	at com.aptana.projects.templates.ProjectTemplatesManager$1.elementBecameVisible(ProjectTemplatesManager.java:87)
+	at com.aptana.scripting.model.BundleManager.fireElementBecameVisibleEvent(BundleManager.java:736)
+	at com.aptana.scripting.model.BundleEntry$ChildVisibilityContext.fireVisibilityEvents(BundleEntry.java:70)
+	at com.aptana.scripting.model.BundleEntry$VisibilityContext.fireElementVisibilityEvents(BundleEntry.java:360)
+	at com.aptana.scripting.model.BundleEntry$VisibilityContext.fireElementVisibilityEvents(BundleEntry.java:344)
+	at com.aptana.scripting.model.BundleEntry.addBundle(BundleEntry.java:494)
+	at com.aptana.scripting.model.BundleManager.addBundle(BundleManager.java:566)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:131)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 1 2013-10-29 09:24:07.955
+!MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages

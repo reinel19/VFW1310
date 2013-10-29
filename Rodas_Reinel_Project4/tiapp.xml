@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>edu.fullsail.reinel19</id>
+    <id>edu.fullsail.project4</id>
     <name>Rodas_Reinel_Project4</name>
     <version>1.0</version>
     <publisher>Sador</publisher>
@@ -15,7 +15,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>06cff985-6442-4824-a1c5-46b2ea19cc64</guid>
+    <guid>794915be-0baa-420c-8c7c-8d1026a44eb8</guid>
     <property name="ti.ui.defaultunit" type="string">system</property>
     <iphone>
         <orientations device="iphone">

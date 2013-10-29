@@ -1,0 +1,31 @@
+var win = Ti.UI.createWindow({
+	tittle: "Project 4",
+	backgroundColor: "#333",
+	modal: true,
+	layout: "horizontal"
+
+});
+
+	// Create a Button.
+	var aButton = Ti.UI.createButton({
+		title : "Gallery",
+		height : 150,
+		width : 200,
+		top : 20,
+		left : 10
+	});
+	
+var aBWin = function(){
+	var newWin = Ti.UI. createWindow({
+		tittle: "Gallery",
+		modal: true,
+		backgroundColor: "#fff"
+	});
+};
+	// Listen for click events.
+	aButton.addEventListener('click', aBWin);
+	
+
+	// Add to the parent view.
+win.add(aButton);
+win.open();
