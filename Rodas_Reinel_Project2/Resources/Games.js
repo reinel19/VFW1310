@@ -6,28 +6,7 @@ var shooter  = [{title: "Duke Nukem 3D Atomic", description: "Great game play, t
 				{title: "Bioshock", description:"Going to a underwater utopia know as Rapture, the city where with not religion bonduries. The use of plasmits and some guns with nice upgrates makes this game exelente in my opinion"},
                 {title: "Wolftein", description: "This game not only take you to WWII but also to Hitler's Castle, the Eagle Nest. Kill a bunch of SS and Hitler, secret door and good boss fight this game is one of my all time favorites."}];
 
-// window for Action view section
-var table = Ti.UI.createTableView({
-	style: Ti.UI.iPhone.TableViewStyle.GROUPED,
-});
 
-/*var getActionDetail = function() {
-  	var detailWindow = Ti.UI.createWindow({
-  		backgroundColor: "#fff",
-  		title: this.title,
-  		modal: true,
-  		
-  	});
-  	var detailText = Ti.UI.createLabel({
-  		text: this.desc,
-  		font: {fontSize: 14, fontFamily:"helvetica",fontWeight:"bold"},
-  		top: 20,
-  		left: 20
-  	});
-  	detailWindow.add(detailText);
-  	navGroup.open(detailWindow,{animation: true});
-};*/
-// Action view section
 var actionSection = Ti.UI.createTableViewSection({
 	headerTitle: "Action",
 	footerTitle: "Best Action Games Ever Play."
@@ -40,27 +19,8 @@ for (var i=0, j=action.length; i<j; i++ ){
 		hasChild: true
 	});
 	actionSection.add(theRow);
-	//theRow.addEventListener("click", getActionDetail);	
+	
 };
-//End of Action Section
-
-// Start Of Shooter Section
-/*var getShooterDetail = function() {
-  	var detailWindow = Ti.UI.createWindow({
-  		backgroundColor: "#fff",
-  		title: this.title,
-  		modal: true
-  		
-  	});
-  	var detailText = Ti.UI.createLabel({
-  		text: this.desc,
-  		font: {fontSize: 14, fontFamily:"helvetica",fontWeight:"bold"},
-  		top: 20,
-  		left: 20
-  	});
-  	detailWindow.add(detailText);
-  	navGroup.open(detailWindow,{animation: true});
-};*/
 
 var shooterSection = Ti.UI.createTableViewSection({
 	headerTitle: "Shooter",
@@ -80,7 +40,7 @@ for (var i=0, j=shooter.length; i<j; i++ ){
 var myGameSections = [actionSection, shooterSection];
 
 table.setData(myGameSections);
-navWindow.add(table);
+
 
 table.addEventListener("click", function(event){
 	console.log(event.source.title);
@@ -93,9 +53,9 @@ table.addEventListener("click", function(event){
   	var detailText = Ti.UI.createLabel({
   		text: event.source.desc,
   		font: {fontSize: 14, fontFamily:"helvetica",fontWeight:"bold"},
-  		top: 20,
+  		top: 50,
   		left: 20
   	});
   	detailWindow.add(detailText);
-  	navGroup.open(detailWindow,{animation: true});
+  	navGroup.openWindow(detailWindow,{animation: true});
 });

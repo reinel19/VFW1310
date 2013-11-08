@@ -36,13 +36,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.js" name="app.js" partName="app.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/app.js" title="app.js" tooltip="Rodas_Reinel_Project1/Resources/app.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project1/Resources/app.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="156" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.js" name="app.js" partName="app.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project2/Resources/app.js" title="app.js" tooltip="Rodas_Reinel_Project2/Resources/app.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project2/Resources/app.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.aptana.editor.js" name="videoGames.js" partName="videoGames.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project1/Resources/videoGames.js" title="videoGames.js" tooltip="Rodas_Reinel_Project1/Resources/videoGames.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project1/Resources/videoGames.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="406" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.js" name="Games.js" partName="Games.js" path="/Users/Sador/Documents/VFW1310/Rodas_Reinel_Project2/Resources/Games.js" title="Games.js" tooltip="Rodas_Reinel_Project2/Resources/Games.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Rodas_Reinel_Project2/Resources/Games.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="15"/>
 </editor>
 </editors>
 <views>
@@ -107,7 +107,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.appcelerator.titanium.ui.browser.dashboard" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.js" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.appcelerator.titanium.ui.perspectives.TitaniumStudioPerspectiveFactory" id="com.appcelerator.titanium.ui.StudioPerspective" label="Studio"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -362,7 +362,44 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1/Resources/app.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project1/Resources/videoGames.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project2/Resources/app.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/Rodas_Reinel_Project2/Resources/Games.js"/>
+</editors>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="videoGames.js" index="1">
+<position info="not_deleted" x="406" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="videoGames.js" index="1">
+<position info="not_deleted" x="406" y="0"/>
+</item>
+<item historyLabel="app.js" index="0">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="app.js" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Games.js" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="app.js" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Games.js" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="app.js" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -380,6 +417,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Games.js" tooltip="Rodas_Reinel_Project2/Resources/Games.js">
+<persistable path="/Rodas_Reinel_Project2/Resources/Games.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="app.js" tooltip="Rodas_Reinel_Project2/Resources/app.js">
+<persistable path="/Rodas_Reinel_Project2/Resources/app.js"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="videoGames.js" tooltip="Rodas_Reinel_Project1Copy/Resources/videoGames.js">
 <persistable path="/Rodas_Reinel_Project1Copy/Resources/videoGames.js"/>
 </file>
@@ -397,9 +440,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="layouts.js" tooltip="Rodas_Reinel_Project3/Resources/layouts.js">
 <persistable path="/Rodas_Reinel_Project3/Resources/layouts.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="app.js" tooltip="Rodas_Reinel_Project2/Resources/app.js">
-<persistable path="/Rodas_Reinel_Project2/Resources/app.js"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="Games.js" tooltip="Rodas_Reinel_Project2/Resources/iphone/Games.js">
 <persistable path="/Rodas_Reinel_Project2/Resources/iphone/Games.js"/>
