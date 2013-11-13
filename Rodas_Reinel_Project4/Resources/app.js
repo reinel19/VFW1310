@@ -1,6 +1,3 @@
-var win = Ti.UI.createWindow();
-
-
 var navWin = Ti.UI.createWindow({
 	title:"Project4",
 	modal:true,
@@ -8,7 +5,7 @@ var navWin = Ti.UI.createWindow({
 	layout: "horizontal"
 });
 
-var navGroup = Ti.UI.iPhone.createNavigationGroup({
+var navGroup = Ti.UI.iOS.createNavigationWindow({
 	window: navWin
 });
 
@@ -18,9 +15,9 @@ var gPic = function(){
 		title: "Gallery",
 		modal: true,
 		backgroundColor: "#333",
-		url:"gallery.js"
+		url:"gallery.js",
 	});
-	navGroup.open(gWin,{animation: true});
+	navGroup.openWindow(gWin,{animation: true});
 };
 
 
@@ -29,7 +26,7 @@ var Gallery = Ti.UI.createButton({
 	title : 'Gallery',
 	height : 70,
 	width : 300,
-	top : 10,
+	top : 50,
 	left : 10
 });
 
@@ -38,38 +35,55 @@ Gallery.addEventListener('click',gPic);
 
 //Begining of favorite games
 
-var fGames = function(){
-	var fWin = Ti.UI.createWindow({
-		title: "Favorite Games",
-		modal: true,
-		backgroundColor: "#fff",
-		url:"fGamesWin.js"
-	});
-	navGroup.open(fWin,{animation: true});
-};
-
-
-// Create a Button.
 var bButton = Ti.UI.createButton({
-	title : 'Favorite Games',
+	title : 'My Favorite Games',
 	height :70,
 	width : 300,
 	top : 10,
 	left : 10
 });
 
-// Listen for click events.
+var fGames = function(){
+	var fWin = Ti.UI.createWindow({
+		title: "My Favorite Games",
+		modal: true,
+		backgroundColor: "#fff",
+		url:"fGamesWin.js"
+	});
+	navGroup.openWindow(fWin,{animation: true});
+};
+
+
+
 bButton.addEventListener('click',fGames);
 //end of favorite games
 
+// TextField
+var textF = function(){
+	var tWin = Ti.UI.createWindow({
+		title: "Your Favorite Games",
+		modal: true,
+		backgroundColor: "#333",
+		url:"textField.js",
+	});
+	navGroup.openWindow(tWin,{animation: true});
+};
 
 
+// Create a Button.
+var textField = Ti.UI.createButton({
+	title : 'Your Favorite Games',
+	height : 70,
+	width : 300,
+	top : 10,
+	left : 10
+});
 
-
+textField.addEventListener('click',textF);
 
 navWin.add(Gallery);
 navWin.add(bButton);
+navWin.add(textField);
+navGroup.open();
 
-win.add(navGroup);
-win.open();
 

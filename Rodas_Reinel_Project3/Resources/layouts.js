@@ -1,46 +1,54 @@
 var gallery = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "gameImages");
 var galleryList = gallery.getDirectoryListing();
 
-var numberofCols = 2;
+var numberOfViews = galleryList.lenght;
+var numberofCols = 4;
 var spacing = 4;
 var numberofSpace = (numberofCols + 1)* spacing;
-var platformWidth = Ti.Platform.displayCaps.platformHeight;
+var platformWidth = Ti.Platform.displayCaps.platformWidth;
 // 
-var newWidth = (platformWidth - numberofSpace)/ gallery;
-
-var viewsContainer = Ti.UI.createScrollView({
-		layout: "horizontal"
-});
-
+var newWidth = (platformWidth - numberofSpace) / numberOfViews;
+// 
+// var viewsContainer = Ti.UI.createScrollView({
+		// layout: "horizontal"
+// });
+// 
 		
 	// Create a Button.
 	var aButton = Ti.UI.createButton({
 		title:"Game Gallery",
 		height : 100,
 		width : 200,
-		top : 20		
+		top : 50		
 	});
 
-	//navGroup.open(aButton,{animation: true});
-	
-	// Listen for click events.
-	 aButton.addEventListener('click', function(e){
-		var makeViews = function(){
-				for(var i=0, j= gallery; i<j; i++){
-					var imageView = Ti.UI.createImageView({
-						image: "gameImages/" + galleryList,
-						top:4,
-						left:4,
-		    			borderRadius: 25,
-						width: newWidth,
-						height:100
+
+	var makeViews = function(){
+		var newWin = Ti.UI.createWindow({
+			title: "Game Gallery",
+			modal: true
+		});
+		for(var i=0, j= galleryList.lenght; i<j; i++){
+			var imageHolder = Ti.UI.createView({
+				top:4,
+				left:4,
+		    	borderRadius: 25,
+				width: newWidth,
+				height: 75
+			});
+			 
+			var imageView = Ti.UI.createImageView({
+				image: "gameImages/" + galleryList,
+						
 					});
-			}
-		navGroup.open(imageView,{animation: true});
-		viewsContainer.add(newView);
-		};	
-	});
+		imageHolder.add(imageView);
+		newWin.add(imageHolder);
+		navGroup.openWindow(newWin, {animation: true});
+		//viewsContainer.add(newView);
+		};
+	};
+
+aButton.addEventListener('click', makeViews);
  
 navWin.add(aButton);
-
-navWin.add(viewsContainer);
+//navWin.add(viewsContainer);

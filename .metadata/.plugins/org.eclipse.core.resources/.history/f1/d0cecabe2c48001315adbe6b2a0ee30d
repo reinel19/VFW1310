@@ -1,0 +1,15 @@
+var navWindow = Ti.UI.createWindow({
+	title: "Best Games Ever Play",
+	modal: true,
+	backgroundColor: "#fff"
+});
+var navGroup = Ti.UI.iOS.createNavigationWindow({
+	window: navWindow
+});
+
+var videoGameFile = require("Games");
+
+
+
+
+navGroup.open();

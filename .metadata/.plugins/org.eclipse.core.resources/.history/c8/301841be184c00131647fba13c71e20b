@@ -1,0 +1,10 @@
+var cWin = Ti.UI.currentWindow;
+
+var textField = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  top: 50, left: 10,
+  width: 250, height: 60
+});
+
+cWin.add(textField);
