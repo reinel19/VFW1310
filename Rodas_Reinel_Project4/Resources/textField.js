@@ -43,6 +43,7 @@ aButton.addEventListener('click', function() {
 	alert("Your Favorite Games Are: " + [textField.getValue() + ", "  + textField2.getValue() + ", "  + textField3.getValue() + "."]);
 });
 
+
 // Add to the parent view.
 cWin.add(textField);
 cWin.add(textField2);
