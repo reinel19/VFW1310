@@ -1,0 +1,25 @@
+var cWin = Ti.UI.currentWindow;
+
+var textField = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  top: 50, left: 10,
+  width: 250, height: 60
+});
+var textField2 = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  top: textField.height + 10, 
+  left: 10,
+  width: 250, 
+  height: 60
+});
+var textField3 = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  top: textField2.height + 10, left: 10,
+  width: 250, height: 60
+});
+cWin.add(textField);
+cWin.add(textField2);
+cWin.add(textField3);
