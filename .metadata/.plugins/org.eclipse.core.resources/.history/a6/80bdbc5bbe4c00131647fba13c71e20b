@@ -1,4 +1,5 @@
 var fGamesWin = Ti.UI.currentWindow;
+
 // var navGroup = Ti.UI.iOS.createNavigationWindow({
 	// window: fGamesWin
 // });
@@ -46,7 +47,7 @@ table.addEventListener("click", function(event){
   		left: 20
   	});
   	detailWindow.add(detailText);
-  	fGamesWin.nav.openWindow(detailWindow,{animation: true});
+  	navGroup.openWindow(detailWindow,{animation: true});
 });
 
 table.add(gamesTable);

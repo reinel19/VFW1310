@@ -1,7 +1,8 @@
 var fGamesWin = Ti.UI.currentWindow;
-// var navGroup = Ti.UI.iOS.createNavigationWindow({
-	// window: fGamesWin
-// });
+
+var navGroup = Ti.UI.iOS.createNavigationWindow({
+	window: fGamesWin
+});
 
 var games = [{title: "Metal Gear", desc:"I have been I huge fan of metal gear since Metal Gear Solid for Play Station. The cinematics are awesome, the gameplay is smooth and fun. The tactical part of the game is what got me into it. "}, 
 			{title: "The Legend Of Zelda", desc: "One of the best games for nintendo. It doesn't matter what console you play zelda; the story, puzzles and gameplay always will keep you entertain."},
@@ -46,9 +47,9 @@ table.addEventListener("click", function(event){
   		left: 20
   	});
   	detailWindow.add(detailText);
-  	fGamesWin.nav.openWindow(detailWindow,{animation: true});
+  	navGroup.openWindow(detailWindow,{animation: true});
 });
 
 table.add(gamesTable);
 fGamesWin.add(table);
-//navGroup.open();
+navGroup.open();

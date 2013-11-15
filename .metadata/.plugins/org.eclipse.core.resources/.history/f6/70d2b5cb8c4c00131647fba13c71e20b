@@ -7,7 +7,7 @@ var textField = Ti.UI.createTextField({
   left: 10,
   width: 250, 
   height: 60,
-  hintText: "Game one"
+  textHint: "Game one"
 });
 var textField2 = Ti.UI.createTextField({
   borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
@@ -16,7 +16,7 @@ var textField2 = Ti.UI.createTextField({
   left: 10,
   width: 250, 
   height: 60,
-  hintText: "Game Two"
+  textHint: "Game Two"
 });
 var textField3 = Ti.UI.createTextField({
   borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
@@ -25,7 +25,7 @@ var textField3 = Ti.UI.createTextField({
   left: 10,
   width: 250, 
   height: 60,
-  hintText: "Game Three"
+  textHint: "Game Three"
 });
 
 
@@ -42,7 +42,6 @@ var aButton = Ti.UI.createButton({
 aButton.addEventListener('click', function() {
 	alert("Your Favorite Games Are: " + [textField.getValue() + ", "  + textField2.getValue() + ", "  + textField3.getValue() + "."]);
 });
-
 
 // Add to the parent view.
 cWin.add(textField);

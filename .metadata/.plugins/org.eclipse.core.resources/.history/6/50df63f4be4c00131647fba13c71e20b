@@ -48,8 +48,7 @@ var fGames = function(){
 		title: "My Favorite Games",
 		modal: true,
 		backgroundColor: "#fff",
-		url:"fGamesWin.js",
-		nav: navGroup
+		url:"fGamesWin.js"
 	});
 	navGroup.openWindow(fWin,{animation: true});
 };

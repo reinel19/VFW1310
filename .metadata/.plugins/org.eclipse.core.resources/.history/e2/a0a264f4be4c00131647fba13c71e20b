@@ -46,7 +46,7 @@ table.addEventListener("click", function(event){
   		left: 20
   	});
   	detailWindow.add(detailText);
-  	fGamesWin.nav.openWindow(detailWindow,{animation: true});
+  	fGamesWin.open(detailWindow,{animation: true});
 });
 
 table.add(gamesTable);
