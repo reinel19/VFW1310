@@ -559,3 +559,13 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.e
 
 !ENTRY org.eclipse.osgi 2 1 2013-11-12 18:05:56.317
 !MESSAGE NLS missing message: NodeTitaniumSDKCommandsHandler_mobileWebBuild in: com.appcelerator.titanium.mobile.cli.messages
+!SESSION 2013-11-15 08:02:10.571 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Sador/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/Sador/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-15 08:02:20.496
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

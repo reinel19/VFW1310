@@ -1,0 +1,55 @@
+var gallery = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "gameImages");
+var galleryList = gallery.getDirectoryListing();
+
+//var numberOfViews = galleryList.length;
+var numberofCols = 4;
+var spacing = 4;
+var numberofSpace = (numberofCols + 1)* spacing;
+var platformWidth = Ti.Platform.displayCaps.platformHeight;
+var newWidth = (platformWidth - numberofSpace) / galleryList.length;
+
+var viewsContainer = Ti.UI.createScrollView({
+		layout: "horizontal"
+});
+
+		
+	// Create a Button.
+	var aButton = Ti.UI.createButton({
+		title:"Game Gallery",
+		height : 100,
+		width : 200,
+		top : 50		
+	});
+
+
+	var makeViews = function(){
+		var newWin = Ti.UI.createWindow({
+			title: "Game Gallery",
+			modal: true,
+			layout: "horizontal"
+		});
+		for(var i=0, j= galleryList.length; i<j; i++){
+			var imageHolder = Ti.UI.createView({
+				top: 50,
+				left:4,
+		    	borderRadius: 25,
+				width: 75,
+				height: 75
+			});
+			 
+			var imageView = Ti.UI.createImageView({
+				image: "gameImages/" + galleryList[i],
+						
+					});
+		viewsContainer.add(newWin);
+		imageHolder.add(imageView);
+		newWin.add(imageHolder);
+		navGroup.openWindow(newWin, {animation: true});
+		
+		};
+	};
+
+aButton.addEventListener('click', makeViews);
+ 
+navWin.add(aButton);
+navWin.add(viewsContainer);
